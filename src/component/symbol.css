@@ -1,0 +1,114 @@
+* {
+    margin : 0;
+    padding : 0
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-top : 1px solid rgb(189, 189, 189);
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.value, .symbol {
+    position: relative;
+    width: calc(100%/3);
+    height: 45px;
+    background-color: rgb(226, 226, 226);
+    border : 1px solid rgb(182, 182, 182);
+    font-size: 20px;
+    outline: none;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.symbol {
+    width: 100%;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(253, 131, 60);
+}
+
+.col-value {
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.col-symbol {
+    position: relative;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.value[value = "0"] {
+    width: calc(100%/3*2);
+}
+
+@font-face {
+    font-family: 'FontAwesome 5 Pro Regular';
+    src: url(../font/fontawesome-5-pro-master/webfonts/fa-regular-400.woff);
+}
+
+.symbol[value = '/']::after {
+    font-family: "FontAwesome 5 Pro Regular";
+    content: "\f529";
+    position: absolute;
+    background-color: rgb(253, 131, 60);
+    font-size: 20px;
+}
+.symbol[value = '-']::after {
+    font-family: "FontAwesome 5 Pro Regular";
+    content: "\f068";
+    position: absolute;
+    background-color: rgb(253, 131, 60);
+    font-size: 20px;
+}
+
+.symbol[value = '*']::after {
+    font-family: "FontAwesome 5 Pro Regular";
+    content: "\f00d";
+    position: absolute;
+    background-color: rgb(253, 131, 60);
+    font-size: 20px;
+}
+
+.symbol[value = '+']::after {
+    font-family: "FontAwesome 5 Pro Regular";
+    content: "\f067";
+    position: absolute;
+    background-color: rgb(253, 131, 60);
+    font-size: 20px;
+}
+
+.symbol[value = '=']::after {
+    font-family: "FontAwesome 5 Pro Regular";
+    content: "\f52c";
+    position: absolute;
+    background-color: rgb(253, 131, 60);
+    font-size: 20px;
+}
+
+#clear-symbol {
+    background-color:rgb(255, 74, 74);
+    color: white;
+}
+
+
+

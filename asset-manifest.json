@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ada1e3c5.chunk.css",
-    "main.js": "/static/js/main.3c040c4c.chunk.js",
-    "main.js.map": "/static/js/main.3c040c4c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ce52344c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ce52344c.js.map",
-    "static/js/2.d443def5.chunk.js": "/static/js/2.d443def5.chunk.js",
-    "static/js/2.d443def5.chunk.js.map": "/static/js/2.d443def5.chunk.js.map",
-    "static/js/3.79822e9b.chunk.js": "/static/js/3.79822e9b.chunk.js",
-    "static/js/3.79822e9b.chunk.js.map": "/static/js/3.79822e9b.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ada1e3c5.chunk.css.map": "/static/css/main.ada1e3c5.chunk.css.map",
-    "static/js/2.d443def5.chunk.js.LICENSE.txt": "/static/js/2.d443def5.chunk.js.LICENSE.txt",
-    "static/media/symbol.css": "/static/media/fa-regular-400.af399b5e.woff"
+    "main.css": "/calculator-react/static/css/main.9cb3aced.chunk.css",
+    "main.js": "/calculator-react/static/js/main.3c040c4c.chunk.js",
+    "main.js.map": "/calculator-react/static/js/main.3c040c4c.chunk.js.map",
+    "runtime-main.js": "/calculator-react/static/js/runtime-main.0d32e095.js",
+    "runtime-main.js.map": "/calculator-react/static/js/runtime-main.0d32e095.js.map",
+    "static/js/2.d443def5.chunk.js": "/calculator-react/static/js/2.d443def5.chunk.js",
+    "static/js/2.d443def5.chunk.js.map": "/calculator-react/static/js/2.d443def5.chunk.js.map",
+    "static/js/3.79822e9b.chunk.js": "/calculator-react/static/js/3.79822e9b.chunk.js",
+    "static/js/3.79822e9b.chunk.js.map": "/calculator-react/static/js/3.79822e9b.chunk.js.map",
+    "index.html": "/calculator-react/index.html",
+    "static/css/main.9cb3aced.chunk.css.map": "/calculator-react/static/css/main.9cb3aced.chunk.css.map",
+    "static/js/2.d443def5.chunk.js.LICENSE.txt": "/calculator-react/static/js/2.d443def5.chunk.js.LICENSE.txt",
+    "static/media/symbol.css": "/calculator-react/static/media/fa-regular-400.af399b5e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce52344c.js",
+    "static/js/runtime-main.0d32e095.js",
     "static/js/2.d443def5.chunk.js",
-    "static/css/main.ada1e3c5.chunk.css",
+    "static/css/main.9cb3aced.chunk.css",
     "static/js/main.3c040c4c.chunk.js"
   ]
 }

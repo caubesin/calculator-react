@@ -17,7 +17,7 @@ const calReducer = (state = initialState, action) => {
                     ...state,
                 }
             }
-            const reg = /\+|-|\*|\//;
+            const reg = /\+|-|\*|\/|%/;
             if(reg.test(state.val[state.val.length-1]) && reg.test(action.val)) {
                 return state = {
                     ...state,

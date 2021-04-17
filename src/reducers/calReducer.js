@@ -10,13 +10,6 @@ const calReducer = (state = initialState, action) => {
     
     switch (action.type) {
         case ADD_SYMBOL:
-            if(state.isEval === true) {
-                state.val = action.val;
-                state.isEval = false;
-                return state = {
-                    ...state,
-                }
-            }
             const reg = /\+|-|\*|\/|%/;
             if(reg.test(state.val[state.val.length-1]) && reg.test(action.val)) {
                 return state = {
